@@ -29,7 +29,7 @@ ESP32 este un microcontroller foarte popular, cu:
 -consum redus
 -numeroase GPIO-uri
 
-4. Senzorul PIR (HC-SR501)
+4. Senzorul PIR (HC-SR505)
 Descriere
 
 Senzorul PIR detectează mișcarea prin schimbarea radiației infraroșii în câmpul său de detecție. Este foarte folosit în proiecte de securitate și automatizări.
@@ -89,3 +89,10 @@ mosquitto_sub -h test.mosquitto.org -t devices/esp32/pir/raw -v
 
 PIR-ul are nevoie de 30–60 sec după alimentare pentru stabilizare.
 Dacă LCD nu afișează nimic, ajustează contrastul (V0).
+
+10. Bibliografie
+    https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+    https://www.optimusdigital.ro/ro/senzori-senzori-pir/1498-senzor-pir-in-miniatura-hc-sr505.html?search_query=senzor+pir&results=34
+    https://www.optimusdigital.ro/ro/optoelectronice-lcd-uri/867-modul-lcd-1602-cu-backlight-galben-verde-de-5v.html?search_query=LCD&results=170
+    https://docs.arduino.cc/learn/electronics/lcd-displays/
+
