@@ -120,4 +120,5 @@ PIR-ul are nevoie de 30–60 sec după alimentare pentru stabilizare.
 
 Dacă LCD nu afișează nimic, ajustează contrastul (V0).
 
+
 Dacă ai alte părți ale proiectului (ex. butoane, alte senzori), pot fi adăugate fără probleme.
